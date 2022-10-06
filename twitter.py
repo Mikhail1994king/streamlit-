@@ -3,7 +3,7 @@ from readline import clear_history
 
 import streamlit as st
 import pandas as pd
-import twint
+from . import twint
 
 
 
