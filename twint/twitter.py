@@ -1,8 +1,7 @@
 from filecmp import clear_cache
 from readline import clear_history
 
-from tkinter.tix import COLUMN
-from traceback import clear_frames
+
 from typing_extensions import Self
 import streamlit as st
 import pandas as pd
@@ -13,8 +12,7 @@ import pandas as pd
 
 import numpy as np
 from textblob import TextBlob
-import plotly.express as px
-import altair as alt
+
 import snownlp as SnowNLP
 import os
 from spacy.lang.en import English
